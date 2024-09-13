@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-image: url("https://source.unsplash.com/1920x1080/?landscape");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,4 +21,14 @@ body {
   position: absolute;
   top: 0;
   left: 20px;
+}
+
+#info{
+  font-family: Verdana;
+  font-size: 11px;
+  color: white;
+  position: relative;
+  padding-top: 10px;
+  top: 20px;
+  right: -140px;
 }
